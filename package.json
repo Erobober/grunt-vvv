@@ -1,18 +1,18 @@
 {
 	"name": "grunt-vvv",
 	"description": "Bundle custom VVV configurations for your project with ease.",
-	"version": "0.1.4",
-	"homepage": "https://github.com/10up/grunt-vvv",
+	"version": "0.1.5",
+	"homepage": "https://github.com/Varying-Vagrant-Vagrants/grunt-vvv",
 	"author": {
-		"name": "10up",
-		"url": "http://10up.com/"
+		"name": "VVV",
+		"url": "https://github.com/Varying-Vagrant-Vagrants"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/10up/grunt-vvv.git"
+		"url": "git@github.com:Varying-Vagrant-Vagrants/grunt-vvv.git"
 	},
 	"bugs": {
-		"url": "https://github.com/10up/grunt-vvv/issues"
+		"url": "https://github.com/Varying-Vagrant-Vagrants/grunt-vvv/issues"
 	},
 	"engines": {
 		"node": ">= 0.8.0"
