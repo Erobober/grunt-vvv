@@ -8,18 +8,24 @@ module.exports = function(grunt) {
 				'tasks/**/*.js'
 			],
 			options: {
-				jshintrc: '.jshintrc',
+				jshintrc: '.jshintrc'
 			},
 		},
 		watch: {
 			all: {
 				files: ['<%= jshint.all %>'],
-				tasks: ['jshint'],
+				tasks: ['jshint']
 			},
 		},
+		vvv: {
+			production: {
+				install: '.vvv',
+				mods: 'vvv',
+			}
+		}
 	});
 
 	grunt.loadTasks('tasks');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.registerTask('default', ['jshint']);
+	grunt.registerTask('default', ['jshint', 'vvv:production']);
 };
