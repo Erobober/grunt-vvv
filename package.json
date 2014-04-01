@@ -1,0 +1,37 @@
+{
+	"name": "grunt-vvv",
+	"description": "Bundle custom VVV configurations for your project with ease.",
+	"version": "0.1.0",
+	"homepage": "https://github.com/10up/grunt-vvv",
+	"author": {
+		"name": "10up",
+		"url": "http://10up.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/10up/grunt-vvv.git"
+	},
+	"bugs": {
+		"url": "https://github.com/10up/grunt-vvv/issues"
+	},
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "~0.4.0",
+		"grunt-contrib-jshint": "~0.8.0"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.0"
+	},
+	"keywords": [
+		"gruntplugin",
+		"grunt",
+		"vvv"
+	],
+	"files": [
+		"tasks",
+		"LICENSE-MIT"
+	]
+}
