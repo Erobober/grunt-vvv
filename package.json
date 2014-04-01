@@ -1,7 +1,7 @@
 {
 	"name": "grunt-vvv",
 	"description": "Bundle custom VVV configurations for your project with ease.",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"homepage": "https://github.com/Varying-Vagrant-Vagrants/grunt-vvv",
 	"author": {
 		"name": "VVV",
