@@ -9,7 +9,7 @@ exports.init = function( grunt ) {
 	function copyMods( data, callback, process ) {
 		if( ! fs.existsSync( data.mods ) ) {
 			grunt.log.writeln( 'No VVV modifications exist, skipping customization routine...'.yellow );
-			return callback( true );
+			return callback( false );
 		}
 
 		ncp.limit = 16;
