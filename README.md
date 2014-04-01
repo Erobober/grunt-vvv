@@ -1,4 +1,4 @@
-# grunt-vvv v0.1.5
+# grunt-vvv v0.1.8
 
 > Bundle custom VVV configurations for your project with ease.
 
