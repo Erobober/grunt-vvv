@@ -42,3 +42,21 @@ module.exports = function(grunt) {
 	grunt.registerTask('default', ['vvv:production']);
 };
 ```
+
+### Options
+
+These options can be used to customize your local VVV install or split your development environments apart.
+
+#### install
+
+Type: `String`
+Default: `.vvv`
+
+This is the relative directory where VVV will be installed and cached for future usage.
+
+#### mods
+
+Type: `String`
+Default: `vvv`
+
+This is the relative directory where you can store your modifications to VVV. Files in this folder must match the corresponding directory structure in VVV in order to be overwritten. If a file exists, it will override VVV when loaded.
